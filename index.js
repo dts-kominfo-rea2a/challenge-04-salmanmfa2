@@ -15,9 +15,9 @@ function createDate(dateArray, i) {
     
   }
   if (i = null) {
-    return parsedDate.sort().join('-');
+    return parsedDate.sort().join('-').toString;
   } else {
-    return parsedDate[i];
+    return parsedDate[i].toString;
   }
   
 };
